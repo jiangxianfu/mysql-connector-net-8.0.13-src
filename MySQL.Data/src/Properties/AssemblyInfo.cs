@@ -38,7 +38,7 @@ using System.Security;
 [assembly: AssemblyTitle("MySql.Data")]
 [assembly: AssemblyDescription("ADO.Net driver for MySQL for .Net Framework and .Net Core")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Oracle")]
+[assembly: AssemblyCompany("Ctrip_Jiangxf")]
 [assembly: AssemblyProduct("MySql.Data.Core")]
 [assembly: AssemblyCopyright("Copyright © 2016, 2018, Oracle and/or its affiliates. All rights reserved.")]
 [assembly: AssemblyTrademark("")]
