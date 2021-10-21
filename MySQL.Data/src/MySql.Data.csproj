@@ -1,11 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <Description>MySql.Data.MySqlClient .Net Core Class Library</Description>
     <Copyright>Copyright (c) 2016, 2018, Oracle and/or its affiliates. All rights reserved.</Copyright>
     <NeutralLanguage>en-US</NeutralLanguage>
     <Version>8.0.13</Version>
-    <Authors>Oracle</Authors>
+    <Authors>Jiangxf</Authors>
     <AssemblyName>MySql.Data</AssemblyName>
     <TargetFrameworks>netcoreapp2.0;net452;netstandard1.6;netstandard2.0</TargetFrameworks>
     <PackageId>MySql.Data</PackageId>
@@ -24,10 +24,11 @@
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyInformationalVersionAttribute>false</GenerateAssemblyInformationalVersionAttribute>
     <GenerateNeutralResourcesLanguageAttribute>false</GenerateNeutralResourcesLanguageAttribute>
-    <SignAssembly>True</SignAssembly>
+    <SignAssembly>false</SignAssembly>
     <DelaySign>True</DelaySign>
     <AssemblyOriginatorKeyFile>..\..\ConnectorNetPublicKey.snk</AssemblyOriginatorKeyFile>
     <NoWarn>CS1591,CS1587,CS1574,CS1570</NoWarn>
+    <FileVersion>8.0.13.1</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
