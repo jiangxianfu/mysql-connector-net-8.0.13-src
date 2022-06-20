@@ -28,7 +28,7 @@
     <DelaySign>True</DelaySign>
     <AssemblyOriginatorKeyFile>..\..\ConnectorNetPublicKey.snk</AssemblyOriginatorKeyFile>
     <NoWarn>CS1591,CS1587,CS1574,CS1570</NoWarn>
-    <FileVersion>8.0.13.1</FileVersion>
+    <FileVersion>8.0.13.2</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
