@@ -235,7 +235,7 @@ namespace MySql.Data.MySqlClient
       /* New protocol with 16 bytes to describe server characteristics */
       owner.ConnectionCharSetIndex = (int)packet.ReadByte();
       /* jiangxf fix: utf8mb4_bin for oceanbase 3.1.2 */
-      if (owner.ConnectionCharSetIndex == 83 && !versionString.Contains("ctrip"))
+      if (owner.ConnectionCharSetIndex == 83)
       {
           owner.ConnectionCharSetIndex = 46;
       }
